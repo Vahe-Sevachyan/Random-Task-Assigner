@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chores Assigner</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="Task-Assigner.CSS">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="choresSection">
+            <h1 class="mainHeader">Task Assigner</h1>
+            <h3>Tasks are generated randomly <br>based  on age and gender</h3>
+            <div class="ageSection"> 
+                <label for="ageSelection" class="ageChooser">Select Age Below</label><br>
+                <select name="age" id="ageSelection">
+                    <option value="">Age</option>
+                    <option value=14>I am 14+ years old</option>
+                    <option value=16>I am 16+ years old</option>
+                    <option value=18>I am 18+ years old</option>
+                </select>
+            </div>
+           
+            <div class="genderSection">
+               <label for="genderSelection" class="genderChooser">Select Gender Below</label> <br>
+                <select name="gender" id="genderSelection">
+                    <option value="">Gender</option>
+                    <option value="male">I'm a Male</option>
+                    <option value="female">I'm a Female</option>
+                </select>
+            </div>
+                <button id="btnOne" type="button">Assign Task!</button>
+                <button id="btnTwo">Reset!</button> 
+            <div id="assignment"></div>
+        </div>
+    </div>
+    <script src="Task-Assigner.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
