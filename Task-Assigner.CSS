@@ -72,6 +72,9 @@ h3{
     border: none;
     text-align: center;
 }
+#ageSelection:hover, #genderSelection:hover{
+    cursor: pointer;
+}
 #assignment{
     line-height: 25px;
     padding-left: 10px;
