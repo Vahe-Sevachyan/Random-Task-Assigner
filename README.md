@@ -7,9 +7,9 @@ Please feel free to use it if you have kids.
 
 > *screen shot samples below!*
 
-# Samples below
+# Samples One
 ![](./MD-Images/Screen-Shot-1.png?raw=true) 
-
+# Samples Two
 ![](./MD-Images/Screen-Shot-2.png?raw=true) 
-
+# Samples Three
 ![](./MD-Images/Screen-Shot-3.png?raw=true) 
